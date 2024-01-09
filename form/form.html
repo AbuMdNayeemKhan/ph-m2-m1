@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: greenyellow;
+            padding: 10px;
+        }
+        .navbar ul{
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-between;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 50%;
+            margin: 0 auto;
+            height: 90vh;
+        }
+        .contact-form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            width: 100%;
+        }
+        .contact-form input{
+            padding: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <a href="#">Login</a>
+    </div>
+    <div class="form-container">
+        <form action="" class="contact-form">
+            <h2>This a form</h2>
+            <input type="text" placeholder="name" required>
+            <input type="email" placeholder="email" required>
+            <input type="text" placeholder="text" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
